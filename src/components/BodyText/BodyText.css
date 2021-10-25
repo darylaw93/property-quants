@@ -1,0 +1,25 @@
+.textTitle {
+    font-weight: bolder;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.flavourText {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.textBody {
+    margin-bottom: 40px;
+}
+
+.logoList {
+    display: flex;
+    width: 100%;
+}
+
+.logos {
+    display:inline-block;
+    margin-right: 10px;
+}

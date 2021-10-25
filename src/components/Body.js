@@ -1,10 +1,10 @@
 import React from 'react';
-import BodyForm from './BodyForm';
-import BodyText from './BodyText';
+import BodyForm from './BodyForm/BodyForm';
+import BodyText from './BodyText/BodyText.js';
 
 const Body = () => {
     return (
-        <div >
+        <div className="body">
             <BodyText />
             <BodyForm />
         </div>
