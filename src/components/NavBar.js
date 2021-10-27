@@ -7,7 +7,7 @@ import NavBarResponsive from "./NavBarResponsive";
 import { useMediaQuery } from "react-responsive";
 import logo from "./images/property_quants_logo.png";
 import { MenuItem } from "@mui/material";
-import { styled, alpha } from "@mui/material/styles";
+import { styled} from "@mui/material/styles";
 import Menu from "@mui/material/Menu";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
