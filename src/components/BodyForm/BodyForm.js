@@ -5,7 +5,8 @@ const BodyForm = () => {
   return (
     <div className="right">
       <div className="formBox">
-        <h1>Learn More About Our Program</h1>
+        <div className="formContent">
+        <div style={{fontSize:'50px', fontWeight:'900'}}>Learn More About Our Program</div>
         <form>
           <input placeholder="First Name" />
           <input placeholder="Last Name" />
@@ -15,6 +16,7 @@ const BodyForm = () => {
           <br/>
           <button>Get Started</button>
         </form>
+      </div>
       </div>
     </div>
   );

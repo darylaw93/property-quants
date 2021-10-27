@@ -1,26 +1,76 @@
 .formBox {
-color: white;
-background-color: rgba(169, 169, 169, 0.212);
-width: 80%;
-height: 100%;
-padding: 10px;
-box-shadow: rgb(250, 250, 250) 0px 1px 3px, rgba(255, 250, 250, 0.952) 0px 1px 2px
+  color: white;
+  box-sizing: border-box;
+  background-color: rgb(10, 4, 48);
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+  padding: 25px, 25px;
+  box-shadow: rgb(10, 4, 48) 0px 1px 3px,
+    rgba(10, 4, 48, 0.952) 0px 1px 2px;
 }
 
+
 .formBox input {
-    width: 40%;
-    padding: 12px 20px;
-    margin: 8px 5px;
-    box-sizing: border-box;
+  width: 43%;
+  padding: 24px 20px;
+  margin: 8px 5px;
+  box-sizing: border-box;
 }
 
 .formBox .notesInput {
-    width: 82%;
+  width: 88%;
 }
 
 .formBox button {
-    width: 40%;
-    padding: 12px 20px;
-    margin: 8px 5px;
-    box-sizing: border-box;
+  align-items: center;
+  background-color: #0a66c2;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+
+.formBox button :hover,
+.formBox button :focus {
+  background-color: #16437e;
+  color: #ffffff;
+}
+
+.formBox button:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, 0.7);
+}
+
+.formBox button :disabled {
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, 0.08);
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.logoPic {
+  margin: 10px;
+  font-size: 50px;
 }
